@@ -1,6 +1,8 @@
 package sets02;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 import modelCollection.Pessoa;
 
@@ -8,7 +10,8 @@ public class MainSet {
 
     public static void main(String[] args) {
 
-        HashSet<Pessoa> pessoas = new HashSet<Pessoa>();
+        Set<Pessoa> pessoas = new LinkedHashSet<Pessoa>();
+        // HashSet não garante ordem -> LinkedHashSet garante ordem
         System.out.println(pessoas.add(new Pessoa(1, "TreinaWeb 01")));
         System.out.println(pessoas);
         System.out.println(pessoas.add(new Pessoa(2, "TreinaWeb 02")));
