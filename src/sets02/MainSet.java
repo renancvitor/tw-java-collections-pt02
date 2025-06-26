@@ -3,6 +3,7 @@ package sets02;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 import modelCollection.Pessoa;
 
@@ -10,8 +11,15 @@ public class MainSet {
 
     public static void main(String[] args) {
 
+        /*
+        HashSet<Pessoa> pessoas = new HashSet<Pessoa>();
+         */
+        /*
         Set<Pessoa> pessoas = new LinkedHashSet<Pessoa>();
+         */
         // HashSet não garante ordem -> LinkedHashSet garante ordem
+        Set<Pessoa> pessoas = new TreeSet<Pessoa>();
+        // Dependete do compareTo implementado -> sempre incova o COmparator
         System.out.println(pessoas.add(new Pessoa(1, "TreinaWeb 01")));
         System.out.println(pessoas);
         System.out.println(pessoas.add(new Pessoa(2, "TreinaWeb 02")));
