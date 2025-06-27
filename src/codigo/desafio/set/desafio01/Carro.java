@@ -1,4 +1,4 @@
-package codigo.desafio.set;
+package codigo.desafio.set.desafio01;
 
 import java.util.Objects;
 
