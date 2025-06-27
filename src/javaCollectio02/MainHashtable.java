@@ -34,5 +34,25 @@ public class MainHashtable {
             String chave = chaves.nextElement();
             System.out.println(" - " + tabelaPessoas.get(chave).toString());
         }
+
+//        Pessoa p = null;
+//        if (tabelaPessoas.containsKey("Legal")) {
+//            p = tabelaPessoas.get("Legal");
+//        } else {
+//            p = new Pessoa(-1, "Não existe");
+//        }
+//        System.out.println(p);
+        Pessoa p = tabelaPessoas.getOrDefault("Legal", new Pessoa(-1, "Não existe"));
+        System.out.println(p);
+
+//        if (!tabelaPessoas.containsKey("Legal")) {
+//            tabelaPessoas.put("Legal", new Pessoa(1, "TreinaWeb 1"));
+//        }
+        tabelaPessoas.put("Legal", new Pessoa(1, "TreinaWeb 1"));
+        System.out.println(tabelaPessoas);
+
+        tabelaPessoas.forEach((chave, valor) -> {
+            System.out.println(String.format("[%s] %s", chave, valor.toString()));
+        });
     }
 }
