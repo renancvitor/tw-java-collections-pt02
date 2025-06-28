@@ -25,7 +25,7 @@ Este repositório contém os exercícios, projetos e anotações desenvolvidos d
 
 ## 🛠 Tecnologias e Ferramentas
 
-- [Java]https://www.java.com/pt-BR/ (17+)
+- [Java](https://www.java.com/pt-BR/) (17+)
 - [Intellij IDE](https://www.jetbrains.com/pt-br/idea/)
 
 ---
@@ -38,3 +38,9 @@ Este repositório contém os exercícios, projetos e anotações desenvolvidos d
 - Em andamento
 
 ---
+
+## 📄 Aviso
+
+Este repositório tem fins exclusivamente educacionais.  
+Todo o conteúdo foi desenvolvido com base no curso Formação Desenvolvedor Java, da plataforma [TreinaWeb](https://www.treinaweb.com.br/).
+Os direitos sobre o conteúdo do curso pertencem aos seus respectivos autores.
