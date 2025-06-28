@@ -1,4 +1,4 @@
-# 🧠 Formação Desenvolvedor Java - TreinaWeb
+# 🧠 Formação Desenvolvedor Java - [TreinaWeb](https://www.treinaweb.com.br/)
 
 ![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)  
 <!-- Troque "Concluído" e a cor conforme o status:  
@@ -8,7 +8,7 @@
 
 ---
 
-Este repositório contém os exercícios, projetos e anotações desenvolvidos durante o curso **"Formação Desenvolvedor Java"**, realizado na TreinaWeb.
+Este repositório contém os exercícios, projetos e anotações desenvolvidos durante o curso **"Formação Desenvolvedor Java"**, realizado na [TreinaWeb](https://www.treinaweb.com.br/).
 
 ---
 
@@ -25,14 +25,14 @@ Este repositório contém os exercícios, projetos e anotações desenvolvidos d
 
 ## 🛠 Tecnologias e Ferramentas
 
-- Java (17+)    
-- Intellij
+- [Java]https://www.java.com/pt-BR/ (17+)
+- [Intellij IDE](https://www.jetbrains.com/pt-br/idea/)
 
 ---
 
 ## 🎓 Sobre o Curso
 
-- Plataforma TreinaWeb
+- Plataforma [TreinaWeb](https://www.treinaweb.com.br/)
 - Instrutor Cleber Campomori
 - Carga horária: Aproximadamente 83 horas
 - Em andamento
