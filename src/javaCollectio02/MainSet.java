@@ -1,4 +1,4 @@
-package javaCollection;
+package javaCollectio02;
 
 import modelCollection.Pessoa;
 
